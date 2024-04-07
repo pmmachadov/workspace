@@ -1,0 +1,25 @@
+{
+  "name": "server-real-world",
+  "version": "1.0.0",
+  "description": "A real-world server with routes, controllers, services, middlewares, utilities, and tests",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "mocha src/tests"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "server"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.3",
+    "chai": "^4.3.4",
+    "nodemon": "^2.0.15"
+  }
+}

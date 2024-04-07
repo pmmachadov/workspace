@@ -1,0 +1,24 @@
+{
+  "name": "server-advanced",
+  "version": "1.0.0",
+  "description": "An advanced server with routes, controllers, services, and middlewares",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "server",
+    "advanced"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
